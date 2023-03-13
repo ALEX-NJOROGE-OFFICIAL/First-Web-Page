@@ -1,0 +1,168 @@
+
+body{
+    background-color: gray;
+}
+header{
+    
+    background-color: lightgreen;
+    width: 100%;
+    height: 100px;
+    margin-bottom: 30px;
+}
+.logo{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color:yellow;
+    margin: 20px;
+    background-color: red;
+    border: 3px dashed chartreuse;
+}
+#h1{
+   text-align: center;
+   color: white;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 30px;
+   
+
+}
+nav{
+    float: right;
+    padding-right: 20px;
+    
+}
+a{
+    text-decoration: none;
+    padding-right: 20px;
+}
+
+div{
+    float: left;
+}
+.col1{
+    height: 400px;
+    width: 27%;
+    background-color: white;
+    margin-right: 20px;
+    
+}
+.col2{
+    height: 400px;
+    width: 53%;
+    background-color: white;
+    margin-right: 20px;
+    
+    
+}
+p{
+    color: aquamarine;
+}
+
+.col3{
+    height: 200px;
+    width: 17%;
+    background-color: white;
+    margin-bottom: 30px;
+
+    
+}
+
+li{
+    list-style-type: none;
+    width: 1px;
+}
+th, td{
+    border: 2px solid blue;
+    border-collapse: collapse;
+}
+
+.col4{
+    
+    float :right;
+    height: 170px;
+    width: 17%;
+    background-color: white;}
+
+
+
+
+
+    .spinner{
+        position: relative;
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+    }
+    .spinner::before,
+    .spinner:after{
+        content:"";
+        position: absolute;
+        border-radius: inherit;
+    }
+    .spinner:before{
+        width:100%;
+        height: 100%;
+        background-image:linear-gradient(0deg, #ff00cc 0%,
+        #333399 100%);
+        animation: spin .5s infinite linear;
+    }
+    .spinner:after{
+        width:85%;
+        height:85%;
+        background-color: #151515;
+        top: 50%;
+        left: 50%;
+        transform:translate(-50%, -50%);
+    }
+    @keyframes spin{
+        to{
+            transform: rotate(360deg)
+        }
+    }
+
+    .rocker{
+        position: relative;
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+    }
+    .rocker::before,
+    .rocker:after{
+        content:"";
+        position: absolute;
+        border-radius: inherit;
+    }
+    .rocker:before{
+        width:100%;
+        height: 100%;
+        background-image:linear-gradient(0deg, #ff00cc 0%,
+        #333399 100%);
+        animation: spin .5s infinite linear;
+    }
+    .rocker:after{
+        width:85%;
+        height:85%;
+        background-color: #151515;
+        top: 50%;
+        left: 50%;
+        transform:translate(-50%, -50%);
+    }
+    @keyframes spin{
+        to{
+            transform: rotate(360deg)
+        }
+    }
+
+    
+
+
+.footer{
+    background-color: lightgreen;
+    height: 100px;
+    width: 100%;
+    margin-top: 40px;
+    
+}
+p{
+    color: white;
+    margin-left: 40px;
+}
